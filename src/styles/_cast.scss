@@ -22,7 +22,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
     margin-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     justify-content: center;
     align-content: center;
 
@@ -36,6 +36,10 @@
 
   &__description {
     text-align: center;
+
+    p{
+      font-size: 20px;
+    }
   }
 
 }
