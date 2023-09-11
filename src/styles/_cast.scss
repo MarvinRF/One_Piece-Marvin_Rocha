@@ -1,0 +1,41 @@
+@use 'variaveis';
+
+.cast {
+  height: 80vh;
+  padding: 0 5vw;
+  padding-top: 50px;
+  background: url("/src/images/background-papel-velho-horizontal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__branding {
+    margin-top: 50px;
+
+    &--title {
+      padding-bottom: 10px;
+      text-shadow: black 0.1em 0.1em 0.2em;
+    }
+  }
+
+  &__characters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+
+    &__character {
+
+      img {
+        max-width: 270px;
+      }
+    }
+  }
+
+  &__description {
+    text-align: center;
+  }
+
+}

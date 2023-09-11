@@ -1,0 +1,48 @@
+@use 'variaveis';
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: variaveis.$corDeFundoDark;
+    z-index: 2;
+    max-height: 56px;
+
+    &__container {
+        padding: 8px 43px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        width: 200px;
+        height: 45px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            margin-left: -41px;
+        }
+
+    }
+
+    &__links {
+        display: flex;
+
+        &__item {
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                font-size: 13px;
+                color: variaveis.$corTextoPrincipal;
+            }
+        }
+    }
+
+    .button {
+        height: 33px;
+    }
+}

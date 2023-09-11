@@ -1,0 +1,56 @@
+@use 'variaveis';
+
+.hero {
+  height: 50vw;
+  text-align: center;
+  line-height: 1.4;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  &__content {
+    max-width: 732px;
+    position: static;
+    
+
+    video {
+      position: static;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      z-index: 0;
+    }
+    &__branding {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 96%;
+      padding: 200px 5vw;
+      max-width: 732px;
+
+      &--logo {
+        text-align: start;
+
+        img {
+          height: 182px;
+          width: 800px;
+          max-width: 732px;
+        }
+      }
+
+      &__details {
+        margin-top: 50px;
+        text-align: start;
+
+        h1 {
+          margin-bottom: 26px;
+        }
+
+        p {
+          padding-top: 16px;
+        }
+      }
+
+    }
+  }
+}
