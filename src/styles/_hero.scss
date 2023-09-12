@@ -16,7 +16,6 @@
       top: 0;
       left: 0;
       object-fit: cover;
-      z-index: 0;
     }
 
     &__branding {
@@ -24,9 +23,10 @@
       top: 0;
       left: 0;
       z-index: 1;
-      width: 96%;
-      padding: 200px 5vw;
-      max-width: 732px;
+      width: 600px;
+      padding: 0 5vw;
+      padding-top: 130px;
+      max-width: 100%;
 
       &--logo {
         text-align: start;

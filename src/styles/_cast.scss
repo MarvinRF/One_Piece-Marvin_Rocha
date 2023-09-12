@@ -1,7 +1,7 @@
 @use 'variaveis';
 
 .cast {
-  height: 65vh;
+  height: 80vh;
   padding: 0 5vw;
   padding-top: 50px;
   background: url("/src/images/mapa\ grand\ line.webp") no-repeat;
@@ -9,7 +9,7 @@
   background-size: cover;
 
   &__branding {
-    margin-top: 0px;
+    max-width: 90%;
 
     &--title {
       padding-bottom: 10px;
@@ -29,7 +29,8 @@
     &__character {
 
       img {
-        max-width: 270px;
+        max-width: 220px;
+        height: auto;
       }
     }
   }

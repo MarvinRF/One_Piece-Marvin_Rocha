@@ -9,19 +9,20 @@
     max-height: 56px;
 
     &__container {
-        padding: 8px 43px;
+        padding: 8px 0;
         display: flex;
         justify-content: space-between;
+        margin: 0 3.6vw;
     }
 
     &__logo {
-        width: 200px;
+        width: 150px;
         height: 45px;
+        justify-content: start;
 
         img {
             height: 100%;
             width: 100%;
-            margin-left: -41px;
         }
 
     }
