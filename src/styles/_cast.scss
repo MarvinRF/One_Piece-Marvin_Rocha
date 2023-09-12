@@ -1,15 +1,15 @@
 @use 'variaveis';
 
 .cast {
-  height: 80vh;
+  height: 65vh;
   padding: 0 5vw;
   padding-top: 50px;
-  background: url("/src/images/background-papel-velho-horizontal.png");
+  background: url("/src/images/mapa\ grand\ line.webp") no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
 
   &__branding {
-    margin-top: 50px;
+    margin-top: 0px;
 
     &--title {
       padding-bottom: 10px;
@@ -19,7 +19,7 @@
 
   &__characters {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
     margin-top: 50px;
     padding-bottom: 60px;
@@ -36,9 +36,12 @@
 
   &__description {
     text-align: center;
+    background-image: linear-gradient(90deg, #333 5%, #181818 95%);
+    box-shadow: 8px 5px 16px 0 rgba(0, 0, 0, .37);
 
-    p{
-      font-size: 20px;
+    p {
+      font-size: 23px;
+      text-shadow: none;
     }
   }
 

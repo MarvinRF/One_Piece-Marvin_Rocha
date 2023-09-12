@@ -1,7 +1,7 @@
 @use 'variaveis';
 
 .hero {
-  height: 50vw;
+  height: 43vw;
   text-align: center;
   line-height: 1.4;
   overflow-x: hidden;
@@ -10,7 +10,6 @@
   &__content {
     max-width: 732px;
     position: static;
-    
 
     video {
       position: static;
@@ -19,6 +18,7 @@
       object-fit: cover;
       z-index: 0;
     }
+
     &__branding {
       position: absolute;
       top: 0;
@@ -50,7 +50,6 @@
           padding-top: 16px;
         }
       }
-
     }
   }
 }
