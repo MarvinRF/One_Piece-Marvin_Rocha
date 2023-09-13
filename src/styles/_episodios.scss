@@ -1,9 +1,10 @@
 @use 'variaveis';
 
 .episodios {
-  height: 80vh;
+  height: 100vh;
   padding: 0 5vw;
-  padding-top: 100px;
+  padding-top: 50px;
+  margin-bottom: 150px;
 
   &__branding {
     max-width: 800px;
