@@ -7,15 +7,31 @@
   overflow-x: hidden;
   overflow-y: hidden;
 
+  @media (max-width:768px){
+    height: 100vh;
+}
   &__content {
     max-width: 732px;
     position: static;
+    @media (max-width:768px){
+      max-width: 300px;
+      display: block;
+    }
 
     video {
       position: static;
       top: 0;
       left: 0;
       object-fit: cover;
+
+      @media (max-width:768px){
+        max-width: 400px;
+        display: none;
+      }
+    }
+    img{
+      display: block;
+      max-width: 400px;
     }
 
     &__branding {
@@ -28,6 +44,13 @@
       padding-top: 130px;
       max-width: 100%;
 
+      @media (max-width:768px){
+        width: 300px;
+        padding-top: 230px;
+        display: block;
+        text-align: center;
+      }
+
       &--logo {
         text-align: start;
 
@@ -35,6 +58,11 @@
           height: 182px;
           width: 800px;
           max-width: 732px;
+
+          @media (max-width:768px){
+          height: 100px;
+          width: 400px;
+          }
         }
       }
 

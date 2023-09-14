@@ -91,15 +91,20 @@ body {
     &:hover {
         background-color: lighten($color: variaveis.$corDeFundoBotaoPrimario, $amount: 3%);
     }
+    @media (max-width:768px){
+        padding: 5% 9px;
+    }
 
     &--dark {
         background-color: variaveis.$corDeFundoDark;
         border-color: variaveis.$corTextoSecundario;
         text-transform: capitalize;
+        
 
         &:hover {
             background-color: variaveis.$corTextoSecundario;
             color: variaveis.$corTextoPrincipal;
         }
     }
+
 }

@@ -13,12 +13,22 @@
         display: flex;
         justify-content: space-between;
         margin: 0 3.6vw;
+
+        @media (max-width:768px) {
+            margin: 0 1vw;
+            padding: 8px 5px;
+        }
     }
 
     &__logo {
         width: 150px;
         height: 45px;
         justify-content: start;
+
+        @media (max-width:768px) {
+            margin-left: -50px;
+            height: 40px;
+        }
 
         img {
             height: 100%;
@@ -30,11 +40,21 @@
     &__links {
         display: flex;
 
+        @media (max-width:768px) {
+            .ilimitado {
+                display: none;
+            }
+        }
+
         &__item {
             margin: 5px;
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @media (max-width:768px) {
+                margin: 3px;
+            }
 
             span {
                 font-size: 13px;

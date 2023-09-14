@@ -8,6 +8,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media (max-width:768px) {
+    height: 100vh;
+    padding-top: 30px;
+  }
+
   &__branding {
     max-width: 90%;
 
@@ -25,12 +30,21 @@
     padding-bottom: 60px;
     justify-content: center;
     align-content: center;
+    @media (max-width:768px) {
+      grid-template-columns: 1fr 1fr;
+      margin-top: 15px;
+      padding: 0 20px;
+    }
 
     &__character {
 
       img {
         max-width: 220px;
         height: auto;
+
+        @media (max-width:768px) {
+          max-width: 140px;
+        }
       }
     }
   }

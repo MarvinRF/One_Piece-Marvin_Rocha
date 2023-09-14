@@ -16,13 +16,13 @@
     <header class="header">
         <div class="header__container">
             <h1 class="header__logo">
-                <img src="dist/images/Netflix-Logo.wine.svg" alt="Netflix-logo">
+                <img id="logo" src="dist/images/Netflix-Logo.wine.svg" alt="Netflix-logo">
             </h1>
             <ul class="header__links">
-                <li class="header__links__item">
+                <li class="header__links__item ilimitado">
                     <span>SÉRIES E FILMES ILIMITADOS</span>
                 </li>
-                <li class="header__links__item">
+                <li class="header__links__item ">
                     <a href="#" class="button">Assine a netflix</a>
                 </li>
                 <li class="header__links__item">
@@ -33,7 +33,8 @@
     </header>
     <section class="hero">
         <div class="hero__content">
-            <video src="src/videos/video-hero-loop.webm" autoplay muted loop></video>
+            <video id="video" src="src/videos/video-hero-loop.webm" autoplay muted loop></video>
+            <img id="imagem" src="/dist/images/background-mobile.jpg" alt="One-Piece">
             <div class="hero__content__branding">
                 <div class="hero__content__branding--logo">
                     <img src="dist/images/One-Piece-Logo.png" alt="one-piece-logo">
@@ -67,6 +68,9 @@
                 </div>
             </div>
             <ul class="bar__container__links">
+                <li class="bar__container__links__item texto-alt">
+                    <p class="text">Assista o quanto quiser.</p>
+                </li>
                 <li class="bar__container__links__item">
                     <a href="#" class="button">Assine a netflix</a>
                 </li>
@@ -286,6 +290,7 @@
             <p class="text--gray">Netflix Brasil</p>
         </div>
     </footer>
+    <script src="src/scripts/main.js"></script>
 </body>
 
 </html>
