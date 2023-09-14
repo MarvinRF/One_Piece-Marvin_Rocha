@@ -37,12 +37,13 @@
     &__branding {
       position: absolute;
       top: 0;
-      left: 0;
+      left: -700px;
       z-index: 1;
       width: 600px;
       padding: 0 5vw;
       padding-top: 130px;
       max-width: 100%;
+      transition: left 1s ease;
 
       @media (max-width:768px){
         width: 300px;
@@ -80,4 +81,8 @@
       }
     }
   }
+}
+
+.animate {
+  left: 0; 
 }

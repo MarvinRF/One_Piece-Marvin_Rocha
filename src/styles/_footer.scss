@@ -3,7 +3,10 @@
 .footer {
   margin: 0 5vw;
   height: 40vh;
-  padding-top: 50px;
+  padding-top: 10px;
+  @media (max-width:768px) {
+    padding-top: 2000px;
+  }
 
   &__container {
     max-width: 100%;
@@ -28,6 +31,9 @@
     justify-content: center;
     max-width: 1000px;
     list-style: none;
+    @media (max-width:768px) {
+      grid-template-columns: 1fr 1fr;
+    }
 
     &__item {
       display: inline-block;

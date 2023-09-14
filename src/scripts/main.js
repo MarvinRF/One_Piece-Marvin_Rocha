@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const hero = document.querySelector('.hero__content__branding');
+
+    hero.classList.add('animate');
+});
+
 function trocarImagem(){
     var imagemDoHeader = document.getElementById("logo");
     var larguraDaTela = window.innerWidth; // Obtém a largura da tela
@@ -24,22 +30,6 @@ function trocarConteudo() {
         // Caso contrário, mostra o vídeo e oculta a imagem
         video.style.display = "block";
         imagem.style.display = "none";
-    }
-}
-
-function trocarbarra() {
-    var frase = document.getElementById("frase");
-    var botao = document.getElementById("botao");
-    var larguraDaTela = window.innerWidth; // Obtém a largura da tela
-
-    if (larguraDaTela <= 768) {
-        // Se a largura da tela for menor ou igual a 768px, injeta uma li a mais na barra e coloca display block
-        frase.style.display = "none";
-        botao.style.display = "block";
-    } else {
-        // Caso contrário, deixa como está
-        botao.style.display = "block";
-        frase.style.display = "none";
     }
 }
 

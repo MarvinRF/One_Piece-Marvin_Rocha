@@ -65,6 +65,14 @@
           width: 240px;
           padding-left: 65px;
         }
+        p{
+          display: none;
+          @media (max-width:768px) {
+            display: block;
+          }
+        }
+
+
 
         span {
           font-size: 13px;
