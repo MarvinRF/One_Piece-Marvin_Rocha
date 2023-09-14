@@ -9,7 +9,6 @@ function scripts() {
     .pipe(gulp.dest('./dist/js'))
 }
 
-
 //função que localiza o arquivo scss, compila e comprime para css
 function styles() {
   return gulp.src('./src/styles/*.scss')
